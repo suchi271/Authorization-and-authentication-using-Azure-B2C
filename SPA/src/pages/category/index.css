@@ -1,0 +1,20 @@
+.category-body {
+  margin-top: 2rem;
+}
+
+.span {
+  width: 10px;
+}
+.catergory-display {
+  padding-left: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.category-table-container {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
