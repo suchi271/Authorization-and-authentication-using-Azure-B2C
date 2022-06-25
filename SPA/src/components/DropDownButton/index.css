@@ -1,0 +1,7 @@
+.dropdown {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 3px;
+}
