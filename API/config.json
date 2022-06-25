@@ -1,0 +1,26 @@
+{
+    "credentials": {
+        "tenantName": "demob2cazure",
+        "clientID": "84bb6996-2e9d-4efa-8be5-89186edb1c14"
+    },
+    "policies": {
+        "policyName": "B2C_1_react-b2c"
+    },
+    "metadata": {
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": false,
+        "validateIssuer": false,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    },
+    "protectedRoutes": {
+        "hello": {
+            "endpoint": "/authenticate",
+            "scopes": ["https://demob2cazure.onmicrosoft.com/84bb6996-2e9d-4efa-8be5-89186edb1c14/demo.read"]
+        }
+    }
+}
